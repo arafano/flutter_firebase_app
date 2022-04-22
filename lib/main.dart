@@ -24,7 +24,7 @@ class AddData extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text("geeksforgeeks"),
+        title: Text("geeksforgeeks geek"),
       ),
       body: StreamBuilder(
         stream: FirebaseFirestore.instance.collection('data').snapshots(),
